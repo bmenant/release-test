@@ -1,0 +1,16 @@
+{
+  "name": "release-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:bmenant/release-test.git",
+  "author": "Benjamin Menant <dev@menant-benjamin.fr>",
+  "license": "MIT",
+  "scripts": {
+    "test": "node node_modules/jasmine/bin/jasmine.js --config=src/spec/support/jasmine.json"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.8.8",
+    "jasmine": "^3.1.0",
+    "typescript": "^2.9.2"
+  }
+}
