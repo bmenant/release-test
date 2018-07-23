@@ -11,6 +11,12 @@
   "devDependencies": {
     "@types/jasmine": "^2.8.8",
     "jasmine": "^3.1.0",
+    "semantic-release": "^15.8.1",
     "typescript": "^2.9.2"
+  },
+  "release": {
+    "verifyConditions": {
+      "path": "./verifyConditions.js"
+    }
   }
 }
