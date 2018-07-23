@@ -15,8 +15,8 @@
     "typescript": "^2.9.2"
   },
   "release": {
-    "verifyConditions": {
-      "path": "./verifyConditions.js"
-    }
+    "verifyConditions": [
+      "@semantic-release/github"
+    ]
   }
 }
