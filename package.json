@@ -6,7 +6,7 @@
   "author": "Benjamin Menant <dev@menant-benjamin.fr>",
   "license": "MIT",
   "scripts": {
-    "test": "node node_modules/jasmine/bin/jasmine.js --config=src/spec/support/jasmine.json"
+    "test": "jasmine --config=src/spec/support/jasmine.json"
   },
   "devDependencies": {
     "@types/jasmine": "^2.8.8",
