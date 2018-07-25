@@ -27,7 +27,7 @@
       "@semantic-release/changelog",
       {
         "path": "@semantic-release/exec",
-        "cmd": "yarn tsc && echo ${nextRelease.version}"
+        "cmd": "yarn tsc && sed -i 's/\"version\":\\s*\"${lastRelease.version}\"/\"version\": \"${nextRelease.version}\"/' package.json"
       },
       {
         "path": "@semantic-release/git",
