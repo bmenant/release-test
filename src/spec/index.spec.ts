@@ -7,4 +7,11 @@ describe('the index.ts module', () => {
             expect(sum).toBe(9);
         });
     });
+
+    describe('the sub function', () => {
+        it('should substract a number to another', () => {
+            let diff = index.sub(6, 2);
+            expect(diff).toBe(4);
+        });
+    });
 });
