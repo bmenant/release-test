@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/bmenant/release-test/compare/v1.2.0...v1.3.0) (2018-07-25)
+
+
+### Features
+
+* bump package.json version ([162e9b5](https://github.com/bmenant/release-test/commit/162e9b5))
+
 # [1.2.0](https://github.com/bmenant/release-test/compare/v1.1.0...v1.2.0) (2018-07-25)
 
 
