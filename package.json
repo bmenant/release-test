@@ -20,7 +20,12 @@
     ],
     "prepare":  [],
     "publish": [
-      "@semantic-release/github"
+      {
+        "path": "@semantic-release/github",
+        "assets": [
+          {"path": "dist/asset.txt", "label": "Text Asset"}
+        ]
+      }
     ]
   }
 }
