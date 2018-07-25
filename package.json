@@ -27,10 +27,7 @@
       "@semantic-release/changelog",
       {
         "path": "@semantic-release/exec",
-        "cmd": [
-          "yarn tsc",
-          "echo ${nextRelease.version}"
-        ]
+        "cmd": "yarn tsc && echo ${nextRelease.version}"
       },
       {
         "path": "@semantic-release/git",
