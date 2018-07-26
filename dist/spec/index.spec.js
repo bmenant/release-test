@@ -8,4 +8,10 @@ describe('the index.ts module', function () {
             expect(sum).toBe(9);
         });
     });
+    describe('the sub function', function () {
+        it('should substract a number to another', function () {
+            var diff = index.sub(6, 2);
+            expect(diff).toBe(4);
+        });
+    });
 });

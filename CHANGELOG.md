@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/bmenant/release-test/compare/v1.3.1...v1.4.0) (2018-07-26)
+
+
+### Features
+
+* add substract function ([21d2fcb](https://github.com/bmenant/release-test/commit/21d2fcb))
+
 ## [1.3.1](https://github.com/bmenant/release-test/compare/v1.3.0...v1.3.1) (2018-07-25)
 
 
